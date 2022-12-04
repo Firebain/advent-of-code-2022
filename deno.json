@@ -1,0 +1,12 @@
+{
+    "tasks": {
+        "gen": "deno run --allow-all ./src/tasks/gen.ts",
+        "day": "deno run --allow-all ./src/tasks/day.ts",
+        "test": "deno test --allow-all"
+    },
+    "test": {
+        "files": {
+            "include": ["./tests/"]
+        }
+    }
+}
